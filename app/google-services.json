@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "793866783711",
+    "firebase_url": "https://tricy-8a94c.firebaseio.com",
+    "project_id": "tricy-8a94c",
+    "storage_bucket": "tricy-8a94c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793866783711:android:0830515b05c85faa",
+        "android_client_info": {
+          "package_name": "in.casual09.tricy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793866783711-nf561t0nj45dvl46jq5guqm90hhkg9hi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.casual09.tricy",
+            "certificate_hash": "23182a2c68004fcebad369bdc0ca2a1540650377"
+          }
+        },
+        {
+          "client_id": "793866783711-9rtvjqe78bvgdtdk2i48ptljevb6usle.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoqc0Tg2BdSyWdE7TZZKGltPMb1t5GSsc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793866783711-9rtvjqe78bvgdtdk2i48ptljevb6usle.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

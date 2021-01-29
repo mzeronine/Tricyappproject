@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d80bb2e1"
+    tools:context=".team">
+
+
+
+
+    <include layout="@layout/tab_bar"/>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/fragment_container"
+        android:background="@drawable/bg_clr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="52dp"></android.support.v4.view.ViewPager>
+
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+

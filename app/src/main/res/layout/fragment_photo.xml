@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+        <ScrollView
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            >
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_marginTop="31dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ph" />
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal"
+                        >
+
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#cb21c12e"
+                                >
+
+                                <ImageView
+                                    android:layout_width="150dp"
+                                    android:layout_height="200dp"
+                                    android:src="@drawable/sahil"
+                                     />
+
+                                <TextView
+                                    android:id="@+id/sahils"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="40dp"
+                                    android:layout_marginBottom="7dp"
+                                    android:layout_marginStart="149dp"
+                                    android:layout_alignParentLeft="true"
+                                    android:text="SAHIL SANKHE"
+                                    android:textStyle="bold"
+                                    android:textSize="20sp"/>
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/sahils"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginStart="150dp"
+                                    android:layout_marginLeft="183dp"
+                                    android:layout_marginTop="14dp"
+                                    android:text="PHOTOGRAPHER"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
+
+
+                                <Button
+                                    android:id="@+id/membst"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_marginStart="0dp"
+                                    android:layout_marginTop="0dp"
+                                    android:background="@android:color/transparent" />
+                            </RelativeLayout>
+                        </android.support.v7.widget.CardView>
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#cb336de1"
+                                >
+
+                                <ImageView
+                                    android:layout_width="150dp"
+                                    android:layout_height="200dp"
+                                    android:src="@drawable/poorva"
+                                    />
+
+                                <TextView
+                                    android:id="@+id/poorva"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="40dp"
+                                    android:layout_marginBottom="7dp"
+                                    android:layout_marginStart="149dp"
+                                    android:layout_alignParentLeft="true"
+                                    android:text="POORVA PATIL"
+                                    android:textStyle="bold"
+                                    android:textSize="20sp"/>
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/poorva"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginStart="150dp"
+                                    android:layout_marginLeft="183dp"
+                                    android:layout_marginTop="14dp"
+                                    android:text="PHOTOGRAPHER"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
+
+
+                                <Button
+                                    android:id="@+id/pbtn"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_marginStart="0dp"
+                                    android:layout_marginTop="0dp"
+                                    android:background="@android:color/transparent" />
+                            </RelativeLayout>
+                        </android.support.v7.widget.CardView>
+
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#cbe9a020"
+                                >
+
+                                <ImageView
+                                    android:layout_width="150dp"
+                                    android:layout_height="200dp"
+                                    android:src="@drawable/aman"
+                                    />
+
+                                <TextView
+                                    android:id="@+id/phnoid"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="40dp"
+                                    android:layout_marginBottom="7dp"
+                                    android:layout_marginStart="149dp"
+                                    android:layout_alignParentLeft="true"
+                                    android:text="AMAN CHAUHAN"
+                                    android:textStyle="bold"
+                                    android:textSize="20sp"/>
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/phnoid"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginStart="150dp"
+                                    android:layout_marginLeft="183dp"
+                                    android:layout_marginTop="14dp"
+                                    android:text="PHOTOGRAPHER"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
+
+
+                                <Button
+                                    android:id="@+id/plbtn"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_marginStart="0dp"
+                                    android:layout_marginTop="0dp"
+                                    android:background="@android:color/transparent" />
+                            </RelativeLayout>
+                        </android.support.v7.widget.CardView>
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:text="PHOTOGRAPHERS / EDITORS"
+        android:layout_marginTop="1dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:background="@color/lightgreen"/>
+
+
+</android.support.constraint.ConstraintLayout>
